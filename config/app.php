@@ -186,6 +186,7 @@ return [
          * Package Service Providers...
          */
         Ppcsite\RecordLog\RecordLogServiceProvider::class,
+        Ppcsite\ViewComponent\ViewComponentServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -212,6 +213,7 @@ return [
     'aliases' => Facade::defaultAliases()->merge([
         // 'ExampleClass' => App\Example\ExampleClass::class,
         'RecordLog' => Ppcsite\RecordLog\Facades\RecordLog::class,
+        'ViewComponent' => Ppcsite\ViewComponent\Facades\ViewComponent::class,
     ])->toArray(),
 
 ];

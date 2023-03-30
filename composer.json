@@ -8,6 +8,10 @@
         {
             "type": "path",
             "url": "./packages/ppcsite/record_log"
+        },
+        {
+            "type": "path",
+            "url": "./packages/ppcsite/view_component"
         }
     ],
     "require": {
@@ -34,13 +38,15 @@
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/",
-            "Ppcsite\\RecordLog\\": "packages/ppcsite/record_log/src/"
+            "Ppcsite\\RecordLog\\": "packages/ppcsite/record_log/src/",
+            "Ppcsite\\ViewComponent\\": "packages/ppcsite/view_component/src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/",
-            "Ppcsite\\RecordLog\\": "packages/ppcsite/record_log/src/"
+            "Ppcsite\\RecordLog\\": "packages/ppcsite/record_log/src/",
+            "Ppcsite\\ViewComponent\\": "packages/ppcsite/view_component/src/"
         }
     },
     "scripts": {
