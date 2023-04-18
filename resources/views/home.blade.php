@@ -19,6 +19,9 @@
                         <x-slot:append_text><input type="checkbox"/></x-slot:append_text>
                     </x-Component::form_input_custom>
                 @endforeach
+                <x-Component::form_select_custom col="12" field="country" :options="$options??['Japan','Taiwan']">
+                    <x-slot:label_name>國家</x-slot:label_name>
+                </x-Component::form_select_custom>
             </div>
         </x-slot:content>
     </x-Component::card_custom>

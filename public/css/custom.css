@@ -1,0 +1,24 @@
+.select-group .select2-container .select2-selection--single {
+    height: min-content ;
+}
+.select-group .select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 7px;
+}
+/*Make select2 responsive*/
+.select2-selection {
+    overflow: hidden;
+}
+.select2-selection__rendered {
+    white-space: normal !important;
+    word-break: break-all;
+}
+
+.input-group-append-sm .input-group-text, .input-group-prepend-sm .input-group-text {
+    padding: .125rem .75rem;
+}
+
+.input-group .custom-file-input~.custom-file-label::after {
+    content: "\f07c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
