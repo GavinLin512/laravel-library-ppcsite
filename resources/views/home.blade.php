@@ -20,6 +20,7 @@
                     </x-Component::form_input_custom>
                 @endforeach
                 <x-Component::form_select_custom col="12" field="country" :options="$options??['Japan','Taiwan']">
+                    <x-slot:default_option>全部國家</x-slot:default_option>
                     <x-slot:label_name>國家</x-slot:label_name>
                 </x-Component::form_select_custom>
             </div>
